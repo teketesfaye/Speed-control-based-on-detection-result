@@ -1,10 +1,10 @@
 # Speed Controller with Object Detection based on Autoware
 
-<!-- <div align="center"> -->
+<div align="center">
 
 ![System Overview](images/FR_FL_Cameras.png)
 
-<!-- </div> -->
+</div>
 
 A ROS2 package that integrates YOLOX object detection with Autoware trajectory control to create automatic stop commands when objects are detected in the vehicle's path.
 
@@ -25,8 +25,6 @@ This package implements an autonomous safety system that:
 - Pedestrian Safety: Immediate stop for pedestrians on lane boundaries
 - Autoware Integration: Seamless integration with Autoware trajectory planning
 
-## Quick Start
-
 ### 1. Build Package
 ```bash
 cd ~/autoware_ws
@@ -34,7 +32,7 @@ colcon build --packages-select speed_controller_cpp
 source install/setup.bash
 ```
 
-### 2. Single Camera Mode (Default)
+### 2. Single Camera Mode 
 ```bash
 # Launch YOLOX detection
 ros2 launch tensorrt_yolox yolox.launch.xml
@@ -43,7 +41,7 @@ ros2 launch tensorrt_yolox yolox.launch.xml
 ros2 launch speed_controller_cpp speed_controller.launch.py
 ```
 
-### 3. Dual Camera Mode (Optional)
+### 3. Dual Camera Mode 
 ```bash
 # Terminal 1: FL camera
 ros2 launch tensorrt_yolox yolox.launch.xml input_topic:=/sensing/camera/camera0/image_raw output_topic:=/perception/object_recognition/detection/rois0
