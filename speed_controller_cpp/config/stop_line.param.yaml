@@ -1,0 +1,41 @@
+/**:
+  ros__parameters:
+    # Stop line behavior 
+    stop_margin: 2.0                   
+    stop_duration: 3.0                 
+    
+    # Detection parameters
+    stop_line_detection:
+      enable_rtc: true                  
+      use_pass_judge_line: false       
+      
+    # Distance parameters  
+    stop_line_distance:
+      max_distance: 50.0              
+      min_distance: 1.0                 
+      
+    # Speed parameters
+    approaching_velocity: 2.0           
+    stopped_velocity_threshold: 0.1     
+    
+    # Safety parameters
+    safety_distance: 0.5                
+    timeout_threshold: 10.0             
+    
+    # ROS topic configuration 
+    topics:
+      input_objects: "/perception/object_recognition/objects"       
+      output_path: "/planning/scenario_planning/trajectory"        
+      stop_line_markers: "/planning/scenario_planning/stop_line_markers"  
+    
+    # Debug and monitoring
+    debug:
+      enable_debug_info: true           
+      publish_debug_markers: true      
+      log_stop_events: true            
+      
+    # Integration parameters
+    integration:
+      frame_id: "base_link"            
+      detection_confidence_threshold: 0.3 
+      max_detection_age: 2.0           
