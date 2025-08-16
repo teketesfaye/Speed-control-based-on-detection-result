@@ -23,7 +23,7 @@ This package implements an autonomous safety system that:
 - Dual Camera Fusion: Combines FL and FR camera detections with IoU-based overlap detection
 - Automatic Safety Stop: Emergency stop when objects detected in trajectory path
 - Pedestrian Safety: Immediate stop for pedestrians on lane boundaries
-- Autoware Integration: Seamless integration with Autoware trajectory planning
+- Autoware Integration: Integration with Autoware trajectory planning
 
 ### 1. Build Package
 ```bash
