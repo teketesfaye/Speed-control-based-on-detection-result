@@ -6,15 +6,16 @@
 
 </div>
 
-A ROS2 package that integrates YOLOX object detection with Autoware trajectory control to create automatic stop commands when objects are detected in the vehicle's path.
+In this project, I used two forward-facing cameras (left and right) to detect objects in front of the ego vehicle and stop it when necessary.
 
-## Overview
+## Project Story
 
-This package implements an autonomous safety system that:
-- Uses forward-facing camera with YOLOX detection for pedestrians and objects
-- Fuses detections from dual cameras to eliminate duplicates and improve accuracy
-- Creates stop commands when objects are detected in front of the vehicle
-- Stops the vehicle when pedestrians are detected on lane boundaries
+This autonomous safety system combines dual camera vision with intelligent object detection:
+- **Dual Camera Setup**: Left (FL) and right (FR) forward-facing cameras provide comprehensive field of view
+- **YOLOX Detection**: Real-time object detection identifies pedestrians, vehicles, and obstacles
+- **Smart Fusion**: Overlapping detections from both cameras are merged to eliminate duplicates and improve accuracy
+- **Automatic Safety**: Vehicle automatically stops when objects are detected in the trajectory path
+- **Autoware Integration**: Seamlessly integrates with Autoware's planning system for autonomous driving
 
 
 ## Key Features
