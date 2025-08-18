@@ -20,7 +20,7 @@ This autonomous safety system combines dual camera vision with intelligent objec
 - **YOLOX Detection**: Real-time object detection identifies pedestrians, vehicles, and obstacles
 - **Smart Fusion**: Overlapping detections from both cameras are merged to eliminate duplicates and improve accuracy
 - **Automatic Safety**: Vehicle automatically stops when objects are detected in the trajectory path
-- **Autoware Integration**: Seamlessly integrates with Autoware's planning system for autonomous driving
+- **Autoware Integration**: Integrates with Autoware's planning system for autonomous driving
 
 
 ## Key Features
