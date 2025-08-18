@@ -1,10 +1,6 @@
 # Speed Controller with Object Detection based on Autoware
 
-<div align="center">
-
 ![System Overview](images/FR_FL_Cameras.png)
-
-</div>
 
 In this project, I used two forward-facing cameras (left and right) to detect objects in front of the ego vehicle and stop it when necessary.
 
