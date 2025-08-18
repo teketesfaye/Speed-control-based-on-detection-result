@@ -8,6 +8,15 @@
 
 In this project, I used two forward-facing cameras (left and right) to detect objects in front of the ego vehicle and stop it when necessary.
 
+## Demo Video
+
+### Speed Controller with YOLOX Detection in Action
+[![Demo Video](https://img.youtube.com/vi/GCaL9vF5LtY/0.jpg)](https://youtu.be/GCaL9vF5LtY)
+
+[🎥 Watch Full Demo on YouTube](https://youtu.be/GCaL9vF5LtY)
+
+---
+
 ## Project Story
 
 This autonomous safety system combines dual camera vision with intelligent object detection:
