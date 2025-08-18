@@ -11,11 +11,11 @@ In this project, I used two forward-facing cameras (left and right) to detect ob
 ## Demo Video
 
 ### Speed Controller with YOLOX Detection in Action
-<div align="center">
+
 [![Demo Video](https://img.youtube.com/vi/GCaL9vF5LtY/0.jpg)](https://youtu.be/GCaL9vF5LtY)
 
 [Watch Full Demo on YouTube](https://youtu.be/GCaL9vF5LtY)
-</div>
+
 
 ## Project Story
 
