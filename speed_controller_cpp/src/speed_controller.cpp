@@ -1,7 +1,7 @@
 
  
-// Report toDaniel Tobias
-// Fuse the detections together if there is overlap, otherwise add the detections to a single topic in 2d space
+// Report to Daniel Tobias
+// Fuse the detections if there is overlap, otherwise add the detections to a single topic in 2d space
 
 //  1. Detection Flow
 
